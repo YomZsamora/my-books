@@ -4,12 +4,11 @@
 {{#partial "content"}}
 <div class="row">
     <h1>Books Application</h1>
-    <div class="col-md-5">
+    <div class="col-md-7">
         <p>Please Add an Author to Your Records</p>
         <form action="/postNewAuthor" method="post" class="form-horizontal">
             <div class="form-group">
                 <label class="col-sm-3 control-label">Author</label>
-                <br>
                 <div class="col-sm-6">
                     <input type="text" placeholder="Enter Author's Name" class="form-control" >
                 </div>
@@ -17,10 +16,6 @@
             <button type="submit" class="btn btn-success btn-block">Add Author</button>
         </form>
         <hr>
-        <h3>List of Authors</h3>
-        <p>Here's a list of all the author's in our records:</p>
-    </div>
-    <div class="col-md-7">
         <p>Please Add a book to Your Records</p>
         <form action="/postNewBook" method="post" class="form-horizontal">
             <div class="form-group">
@@ -66,6 +61,34 @@
 
             <button type="submit" class="btn btn-success btn-block">Add Book</button>
         </form>
+    </div>
+    <div class="col-md-5">
+        <h3>List of Authors</h3>
+        <p class="text-danger">Don't have any author in our records yet!</p>
+<!--        <p>Here's a list of all the author's in our records:</p>-->
+<!--        <ol>-->
+<!--            <li>Lorem ipsum dolor sit amet</li>-->
+<!--            <li>Consectetur adipiscing elit</li>-->
+<!--            <li>Integer molestie lorem at massa</li>-->
+<!--        </ol>-->
+        <hr>
+        <h3>List of Books</h3>
+        <p class="text-danger">Don't have any book in our records yet!</p>
+<!--        <p>Here's a list of all the books's in our records:</p>-->
+<!--        <ol>-->
+<!--            <li>-->
+<!--                <h4>Insanely Simple <small>123 Pages | <span class="text-success">Available</span></small></h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <h4>Insanely Simple <small>123 Pages | <span class="text-success">Available</span></small></h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <h4>Insanely Simple <small>123 Pages | <span class="text-success">Available</span></small></h4>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+<!--            </li>-->
+<!--        </ol>-->
     </div>
 </div>
 
